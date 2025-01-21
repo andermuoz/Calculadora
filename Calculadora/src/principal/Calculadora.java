@@ -1,8 +1,15 @@
 package principal;
 import menu.Menu;
 import operaciones.Operaciones;
-
+/**Aplicacion principal a ejecutar.
+ *@author Ander MuÃ±oz
+ *@version 1
+ */
 public class Calculadora{
+/** Main principal
+ * 
+ *@param args Argumentos de la linea de comandos.
+ */
     public static void main(String[] args) {   
         int resultado = 0;
         String operacion = "";
@@ -31,8 +38,9 @@ public class Calculadora{
                 resultado = operaciones.resto(operandos[0], operandos[1]);
                 System.out.println ("Resultado: " + resultado);
             } else {
-                System.out.println ("Operación no válida");
+                System.out.println ("Operaciï¿½n no vï¿½lida");
             }
         }   while (menu.repetir());
     }
 }
+
