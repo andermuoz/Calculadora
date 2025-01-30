@@ -7,7 +7,7 @@ public class Menu {
     private static Scanner teclado = new Scanner(System.in);
 	/**
 	 * Se piden los valores mediante ret 1 y ret 2 scanner
-	 * @return array con los 2 valores operando.
+	 * @return array con los 2 valores operando..
 	 */
     public int[] pedirNumeros(){
         int[] ret = new int[2];
